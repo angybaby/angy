@@ -1,0 +1,26 @@
+.container .c-title p {
+	font-size: 30px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+.container .c-title {
+	border-bottom: 1px solid #000;
+}
+.container .c-cont {
+	width: 369px;
+	margin:40px 10px;
+	border:1px solid #BBB9B9;
+	padding: 3px;
+}
+.container .c-cont:hover {
+	box-shadow: 0 0 5px #484747;
+}
+
+.container .c-cont p {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.container .c-cont a {
+	color: #000;
+}

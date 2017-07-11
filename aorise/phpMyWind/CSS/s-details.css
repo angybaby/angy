@@ -1,0 +1,79 @@
+.photo {
+	margin: 0px auto;
+}
+
+/*面包屑导航*/
+.bread {
+	border-bottom: 1px solid #939292;
+}
+.bread p {
+	display:inline-block;
+	font-weight: bold;
+	line-height: 50px;
+}
+.bread a {
+	color: #585656;
+}
+.bread span {
+	color: #585656;
+	float: right;
+	line-height: 50px;
+}
+
+/*内容*/
+/*标题*/
+.container .d-title p {
+	line-height: 70px;
+	text-align: center;
+	font-size: 30px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+.container .d-title {
+	border-bottom: 1px solid #939292;
+}
+
+/*更新时间*/
+.container .c-time {
+	text-align: center;
+	border-bottom: 1px solid #939292;
+}
+.container .c-time span {
+	font-size: 12px;
+	color: #939292;
+}
+.container .c-time p {
+	display: inline-block;
+	color: #504E4E;
+}
+
+/*内容上部分*/
+.container .c-top {
+	border:1px solid #F9F695;
+	background-color: #FCFEE4;
+	margin: 20px 0 20px 0;
+}
+.container .c-top p {
+	font-size: 16px;
+	font-family: '微软雅黑';
+}
+
+/*内容中部*/
+.container .c-mid p {
+	line-height: 50px;
+	font-family: '微软雅黑';
+}
+.container .c-mid span {
+	float: right;
+	font-family: '微软雅黑';
+}
+.container .c-mid a {
+	color: #000;
+}
+/*内容底部*/
+.container .c-under {
+	margin-bottom: 40px;
+}
+.container .c-under input {
+	float: right;
+}

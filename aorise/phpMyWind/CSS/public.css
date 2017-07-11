@@ -1,0 +1,21 @@
+/*内容字体颜色*/
+.container a {
+	color: #000;
+}
+.container a:hover {
+	color: #2D2A6F;
+}
+/*内容*/
+.container .c-cont {
+	border:1px solid #E2E0E0;
+	margin:30px 0;
+}
+.container .c-left {
+	padding:10px;
+}
+.container .c-right p {
+	font-size: 24px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+
+}

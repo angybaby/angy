@@ -1,0 +1,103 @@
+/*通用*/
+ul {list-style-type: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+/*头部*/
+.header-home {
+	box-shadow: 0px 2px 4px rgba(1, 1, 1, 0.15);
+	width: 100%;
+	height: 60px;
+    padding-top: 10px;
+    opacity: 0.85;
+    background-color: #fff;
+}
+.subBanner {
+	margin-top: 70px;
+}
+.container nav li {
+	background:url(../images/nav-logo.PNG) no-repeat;
+	text-align: center;
+	float: left;
+    line-height: 30px;
+    margin-left: 30px;
+    width: 100px;
+}
+/*鼠标放到li标签上改变背景图片*/
+.container nav li:hover {
+	background-color: #DE6E32;
+}
+.container nav li a {
+	color: #fff;
+	font-size: 14px;
+}
+/*当鼠标放到a标签上面时字体变色*/
+.container nav li a:hover {
+	color: #000;
+}
+/*当鼠标点击导航栏某个a标签后跳转到另一个页面,字体变色*/
+.container nav .change {
+	color: #000;
+}
+.photo {
+	width: 1170px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.show-photo img{
+	width: 100%;
+}
+.subBody {
+	margin-top: 30px;
+}
+/*面包屑导航*/
+.bread {
+	padding-top:20px;
+	border-bottom: 1px solid #939292;
+}
+.bread p {
+	display:inline-block;
+	font-weight: bold;
+}
+.bread a {
+	color: #585656;
+}
+.bread span {
+	color: #585656;
+	float: right;
+}
+/*内容*/
+.container .c-title p {
+	font-size: 30px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+.container .c-title {
+	padding-top: 20px;
+	border-bottom: 1px solid #000;
+}
+
+/*尾部*/
+.footer {
+	width:100%;
+	height: 230px;
+	background-color: #C6C4C4;
+}
+/*底部左边*/
+.footer .f-left {
+	margin-top: 30px;
+}
+
+.footer .f-left p {
+	line-height: 40px;
+	text-align: center;
+}
+/*底部右边*/
+.footer .f-right {
+	margin-top: 30px;
+}
+.footer .f-right img {
+	padding-left: 20px;
+}
+.footer .f-right p {
+	text-align: center;
+}

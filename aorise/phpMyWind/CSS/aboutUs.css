@@ -1,0 +1,28 @@
+.container .side .s-top {
+	background: url(../images/at1.png) no-repeat;
+	margin-top: 35px;
+
+}
+.container .s-top p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+	color: #fff;
+	padding-top: 20px;
+}
+.container .side .s-under {
+	padding-bottom: 30px;
+	background: url(../images/at2.png) no-repeat;
+}
+.container .s-under li {
+	padding: 25px 0 0 90px;
+}
+.container .s-under ul a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+}
+.container .right p {
+	padding: 30px 0 0 30px;
+	font-family: '微软雅黑';
+}

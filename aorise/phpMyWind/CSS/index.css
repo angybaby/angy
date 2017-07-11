@@ -1,0 +1,64 @@
+/*横线*/
+.container .line {
+	margin-left: 300px;
+	border-top: 1px solid #787676;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*标题*/
+.container .title {
+	margin-left:387px;
+	text-align: center;
+	margin-top: 40px;
+
+}
+.container .title a {
+	font-weight: bold;
+    color: #333;
+    font-size: 30px;
+}
+/*解决方案*/
+.container .s-content {
+	border:1px solid #BBB9B9;
+	padding: 1px;
+}
+.container .s-content a {
+	color: #000;
+}
+.container .s-content:hover {
+	box-shadow: 0 0 5px #484747;
+}
+.container .s-content p {
+	font-family: '微软雅黑';
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*关于我们*/
+.container .a-content img {
+	padding-left: 72px;
+}
+
+.container .a-content p {
+	font-family: '微软雅黑';
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+/*新闻资讯*/
+.container .n-right li {
+	border-bottom: 1px dashed #7C7B7B;
+	line-height: 40px;
+}
+.container .n-right a {color: #000;}
+.container .n-right ul span {
+	display: inline-block;
+	border:6px solid transparent;
+	border-left: 6px solid #f00;
+}
+.container .n-right ul time{
+	float: right;
+}

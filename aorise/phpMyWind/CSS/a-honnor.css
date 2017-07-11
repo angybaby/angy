@@ -1,0 +1,42 @@
+.container .side .s-top {
+	background: url(../images/at1.png) no-repeat;
+	margin-top: 35px;
+
+}
+.container .s-top p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+	color: #fff;
+	padding-top: 20px;
+}
+.container .side .s-under {
+	padding-bottom: 30px;
+	background: url(../images/at2.png) no-repeat;
+}
+.container .s-under li {
+	  padding: 21px 0 0 41px;
+}
+.container .s-under ul a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.container .right {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.container .right span {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 36px;
+	font-family: '微软雅黑';
+	font-weight:bold;
+	display: block;
+}
+.container .right p {
+	font-size: 28px;
+	font-family: '微软雅黑';
+	font-weight:bold;
+	line-height: 60px;
+}
